@@ -32,8 +32,8 @@ Each branch represents a progressive version of an application or concept build:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/nodejs-learning.git
-cd nodejs-learning
+git clone https://github.com/Aeneas06/NodeJS.git
+cd App
 
 # Checkout a specific version
 git checkout Appv3  # for example
