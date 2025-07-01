@@ -1,0 +1,80 @@
+2025-05-08T11:38:33.368Z : POST /api/bp/login : ::1 : undefined
+2025-05-08T11:52:08.931Z : POST /api/bp/login : ::1 : undefined
+2025-05-08T11:52:23.149Z : POST /api/bp/login : ::1 : undefined
+2025-05-08T11:52:56.818Z : POST /api/bp/register : ::1 : undefined
+2025-05-08T11:53:57.098Z : POST /api/bp/register : ::1 : undefined
+2025-05-08T11:55:39.843Z : POST /api/bp/register : ::1 : undefined
+2025-05-08T11:57:11.806Z : POST /api/bp/register : ::1 : undefined
+2025-05-08T11:57:16.282Z : POST /api/bp/login : ::1 : undefined
+2025-05-08T11:59:02.052Z : POST /api/bp/login : ::1 : undefined
+2025-05-08T12:10:26.847Z : POST /api/bp/login : ::1 : undefined
+2025-05-08T12:17:18.200Z : POST /api/bp/login : ::1 : undefined
+2025-05-08T12:19:47.519Z : POST /api/bp/login : ::1 : undefined
+2025-05-08T12:21:41.327Z : POST /api/bp/register : ::1 : undefined
+2025-05-08T12:22:06.434Z : POST /api/bp/register : ::1 : undefined
+2025-05-08T12:22:49.303Z : POST /api/bp/register : ::1 : undefined
+2025-05-08T12:22:53.349Z : POST /api/bp/login : ::1 : undefined
+2025-05-08T12:25:19.221Z : POST /api/bp/login : ::1 : undefined
+2025-05-08T12:33:56.259Z : POST /api/bp/login : ::1 : undefined
+2025-05-08T12:46:59.968Z : POST /api/bp/addUserData : ::1 : undefined
+2025-05-08T12:52:18.367Z : POST /api/bp/addUserData : ::1 : undefined
+2025-05-08T12:52:48.629Z : POST /api/bp/addUserData : ::1 : undefined
+2025-05-08T12:52:51.471Z : POST /api/bp/addUserData : ::1 : undefined
+2025-05-08T13:06:07.232Z : POST /api/bp/addUserData : ::1 : undefined
+2025-05-08T13:06:12.832Z : POST /api/bp/addUserData : ::1 : undefined
+2025-05-08T13:06:15.070Z : POST /api/bp/addUserData : ::1 : undefined
+2025-05-08T13:06:33.947Z : POST /api/bp/addUserData : ::1 : undefined
+2025-05-08T13:10:55.250Z : POST /api/bp/updateUserData : ::1 : undefined
+2025-05-08T13:11:03.871Z : PUT /api/bp/updateUserData : ::1 : undefined
+2025-05-08T13:19:14.488Z : PUT /api/bp/updateUserData : ::1 : undefined
+2025-05-08T13:24:40.281Z : POST /api/bp/viewUserData : ::1 : undefined
+2025-05-08T13:25:28.832Z : POST /api/bp/viewUserData : ::1 : undefined
+2025-05-08T13:26:49.644Z : DELETE /api/bp/deleteUserData : ::1 : undefined
+2025-05-08T13:27:24.121Z : POST /api/bp/viewUserData : ::1 : undefined
+2025-05-08T13:39:09.710Z : POST /api/bp/viewUserData : ::1 : undefined
+2025-05-08T13:39:11.960Z : POST /api/bp/viewUserData : ::1 : undefined
+2025-05-08T13:39:15.702Z : POST /api/bp/login : ::1 : undefined
+2025-05-08T13:39:37.132Z : POST /api/bp/viewUserData : ::1 : undefined
+2025-05-08T13:43:26.929Z : POST /api/bp/viewUserData : ::1 : undefined
+2025-05-08T13:47:58.290Z : POST /api/bp/viewUserData : ::1 : undefined
+2025-05-08T13:51:37.795Z : POST /api/bp/viewUserData : ::1 : undefined
+2025-05-08T13:52:18.826Z : POST /api/bp/viewUserData : ::1 : undefined
+2025-05-08T13:52:41.187Z : PUT /api/bp/updateUserData : ::1 : undefined
+2025-05-08T13:52:53.150Z : PUT /api/bp/updateUserData : ::1 : undefined
+2025-05-08T13:52:56.943Z : POST /api/bp/viewUserData : ::1 : undefined
+2025-05-08T13:58:30.169Z : POST /api/bp/viewUserData : 200 : OK : Unknown
+2025-05-08T14:01:25.404Z : POST /api/bp/viewUserData : 200 : OK : Unknown
+2025-05-08T14:08:41.741Z : POST /api/bp/viewUserData : 200 : OK : Unknown
+2025-05-08T14:16:24.589Z : POST /api/bp/viewUserData : 200 : undefined : Unknown
+2025-05-08T14:22:27.828Z : POST /api/bp/viewUserData : 200 : Data retrieved : Unknown
+2025-05-08T14:31:15.075Z : POST /api/bp/login : 200 : Login successful : sourjo@gmail.com
+2025-05-08T14:31:33.407Z : POST /api/bp/viewUserData : 200 : Data retrieved : Unknown
+2025-05-08T14:33:55.273Z : POST /api/bp/viewUserData : 200 : Data retrieved : Unknown
+2025-05-08T14:35:48.215Z : POST /api/bp/viewUserData : 200 : Data retrieved : sourjo@gmail.com
+2025-05-08T14:36:48.919Z : POST /api/bp/viewUserData : 200 : Data retrieved : sourjo@gmail.com
+2025-05-08T14:40:23.242Z : POST /api/bp/login : 200 : Login successful : sourjo@gmail.com
+2025-05-08T14:40:26.830Z : POST /api/bp/viewUserData : 401 : Unauthorized : Unknown
+2025-05-12T07:32:19.314Z : POST /api/bp/register : 201 : User registered successfully : souvik@gmail.com
+2025-05-12T07:35:00.688Z : POST /api/bp/login : 200 : Login successful : souvik@gmail.com
+2025-05-12T07:37:21.615Z : POST /api/bp/addUserData : 201 : Data added successfully : souvik@gmail.com
+2025-05-12T07:38:14.720Z : POST /api/bp/addUserData : 409 : User ID or Phone number already exists : souvik@gmail.com
+2025-05-12T07:38:44.693Z : PUT /api/bp/updateUserData : 409 : Phone number already exists : souvik@gmail.com
+2025-05-12T07:38:54.871Z : PUT /api/bp/updateUserData : 200 : User data updated successfully : souvik@gmail.com
+2025-05-12T07:39:56.300Z : POST /api/bp/viewUserData : 401 : Unauthorized : Unknown
+2025-05-12T07:40:09.671Z : POST /api/bp/viewUserData : 200 : Data retrieved : souvik@gmail.com
+2025-05-12T07:41:00.036Z : DELETE /api/bp/deleteUserData : 200 : User with ID ID-0004 deleted successfully : souvik@gmail.com
+2025-05-12T07:42:50.085Z : DELETE /api/bp/deleteUserData : 401 : Unauthorized : Unknown
+2025-05-12T07:43:17.602Z : POST /api/bp/viewUserData : 500 : Fetch failed : souvik@gmail.com
+2025-05-12T07:43:28.024Z : POST /api/bp/viewUserData : 200 : Data retrieved : souvik@gmail.com
+2025-07-01T12:46:53.948Z : POST /api/bp/v2/login : 404 : No message : Unknown
+2025-07-01T12:47:51.190Z : POST /api/bp/v2/login : 404 : No message : Unknown
+2025-07-01T12:49:15.585Z : POST /api/bp/v2/login : 404 : No message : Unknown
+2025-07-01T12:50:15.773Z : POST /api/bp/v2/login : 404 : No message : Unknown
+2025-07-01T12:50:47.440Z : POST /api/bp/v2/login : 404 : No message : Unknown
+2025-07-01T12:52:22.281Z : POST /api/bp/v2/login : 404 : No message : Unknown
+2025-07-01T12:52:23.609Z : POST /api/bp/v2/login : 404 : No message : Unknown
+2025-07-01T12:53:53.793Z : POST /api/bp/login : 200 : Login successful : souvik@gmail.com
+2025-07-01T12:54:23.074Z : POST /api/bp/login : 200 : Login successful : souvik@gmail.com
+2025-07-01T12:54:24.268Z : POST /api/bp/login : 200 : Login successful : souvik@gmail.com
+2025-07-01T12:54:25.380Z : POST /api/bp/login : 200 : Login successful : souvik@gmail.com
+2025-07-01T12:54:26.292Z : POST /api/bp/login : 200 : Login successful : souvik@gmail.com
