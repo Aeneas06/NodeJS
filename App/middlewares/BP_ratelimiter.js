@@ -3,8 +3,8 @@ const RedisStore = require("rate-limit-redis").default;
 const redisClient = require("../config/BP_redisClient");
 
 const globalLimiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 10, // Max 100 requests per window per IP
+  windowMs: 15 * 60 * 1000,
+  max: 10,
   message: {
     status: 429,
     error: "Too many requests from this IP, try again after 15 minutes.",
