@@ -4,10 +4,11 @@ const mysql = require("mysql2");
 
 // Database configuration
 const connectionConfig = {
-  host: "127.0.0.1",
-  user: "root",
-  password: "1234",
-  database: "backend_practice_database",
+  host: process.env.MYSQL_HOST,
+  user: process.env.MYSQL_USER,
+  password: process.env.MYSQL_PASSWORD,
+  database: process.env.MYSQL_DATABASE,
+  port: process.env.MYSQL_PORT,
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,

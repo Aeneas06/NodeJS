@@ -7,7 +7,7 @@ exports.findByLoginId = (loginId, callback) => {
     if (err) return callback(err, null);
 
     const query =
-      'SELECT loginId, userId, password, passkey, iv FROM BPDLOGIN WHERE loginId = ? AND status = "active"';
+      'SELECT loginId, userId, password, passkey, iv FROM bpdlogin WHERE loginId = ? AND status = "active"';
     connection.query(query, [loginId], (err, results) => {
       connection.release();
       if (err) return callback(err, null);
@@ -20,7 +20,7 @@ exports.checkLoginIdExists = (loginId, callback) => {
   connectToDatabase((err, connection) => {
     if (err) return callback(err, null);
 
-    const query = "SELECT loginId FROM BPDLOGIN WHERE loginId = ?";
+    const query = "SELECT loginId FROM bpdlogin WHERE loginId = ?";
     connection.query(query, [loginId], (err, results) => {
       connection.release();
       if (err) return callback(err, null);

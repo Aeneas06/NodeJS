@@ -1,0 +1,40 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - redis
+      - mysql
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - MYSQL_HOST=mysql
+      - MYSQL_PORT=3306
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=p{0zdq~SMn76},QMGMPU@oT.}CNq$S
+      - MYSQL_DATABASE=backend_practice_database
+    volumes:
+      - .:/usr/src/App
+    command: node app.js
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+
+  mysql:
+    image: mysql:8.0
+    restart: always
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: p{0zdq~SMn76},QMGMPU@oT.}CNq$S
+      MYSQL_DATABASE: backend_practice_database
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./db/sqlschema.sql:/docker-entrypoint-initdb.d/sqlschema.sql
+
+volumes:
+  mysql_data:
